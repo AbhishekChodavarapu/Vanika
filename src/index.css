@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.hero {
+  background-size: cover;
+  min-height: 100vh; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.hero h1{
+  color: black;
+}
+
+
+.hero #hero{
+  color: rgb(40, 47, 69);
+  text-align: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.footer {
+  background-color: rgb(28, 30, 45);
+  background-size: cover;
+}
+
+.cta {
+  background-color: #f3f4f7;
+}
+
+
