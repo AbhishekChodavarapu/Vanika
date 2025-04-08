@@ -19,7 +19,7 @@ const NavLinks = () => {
                 ${scrolled ? "text-black" : "text-[rgb(40,47,69)]"} 
                 after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-0 after:h-[2px] 
                 after:bg-[rgb(40,47,69)] after:transition-all after:duration-300 hover:after:w-full`} 
-                to="/#Home"
+                to="/#home"
             >
                 Home
             </HashLink>

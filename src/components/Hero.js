@@ -5,7 +5,7 @@ import homeVideo from '../images/home1.mp4';
 
 const Hero = () => {
     return (
-        <div className="relative h-screen w-full">
+        <div className="relative h-screen w-full" id='home'>
             {/* Ensure the NavBar stays above everything */}
             <div className="relative z-50">
                 <NavBar />
