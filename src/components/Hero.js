@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from './Navbar/NavBar';
-import homeVideo from '../images/home1.mp4';
+import homeVideo from '../images/home11.mp4';
 
 const Hero = () => {
     return (
